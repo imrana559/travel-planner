@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="ba.unsa.pmf.planerputovanja.PopActivity"
+    android:weightSum="1">
+
+    <TextView
+        android:id="@+id/pop_prozor"
+        android:layout_width="match_parent"
+        android:layout_height="31dp"
+        android:layout_marginTop="100dp"
+        android:layout_weight="0.18"
+        android:text="UPOZORENJE!"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="24sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/pop_tekst"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.21"
+        android:text="@string/pop_tekst"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/okButton"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/ok_icon"/>
+
+
+</LinearLayout>

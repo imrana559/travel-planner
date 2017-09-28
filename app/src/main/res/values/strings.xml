@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">Planer putovanja</string>
+    <string name="putovanje_activity_name">Dodaj putovanje</string>
+    <string name="to_do_activity_name">Moja lista aktivnosti</string>
+    <string name="galerija_activity_name">Zabilježite trenutke sa putovanja</string>
+    <string name="galerija_list_activity">Galerija</string>
+
+    <string name="putovanje_title_hint">Unesite lokaciju putovanja</string>
+    <string name="putovanje_title_label">Detalji o putovanju</string>
+    <string name="putovanje_details_label">Datum polaska</string>
+    <string name="putovanje_reserved_label">Rezervisano</string>
+    <string name="putovanje_mjesta">Unesite mjesta koja želite posjetiti</string>
+    <string name="putovanje_napomena">Napomena</string>
+
+    <string name="date_picker_title">Datum polaska:</string>
+    <string name="new_putovanje">Novo putovanje</string>
+    <string name="show_subtitle">Prikaži podnaslov</string>
+    <string name="hide_subtitle">Sakrij podnaslov</string>
+    <string name="subtitle_format">%1$d putovanja</string>
+    <string name="delete_putovanje">Izbriši putovanje</string>
+    <string name="putovanje_prijatelj_text">Pozovi prijatelje</string>
+    <string name="putovanje_report_text">Kontaktirajte nas</string>
+    <string name="putovanje_toast">Da biste unijeli novo putovanje, prvo morate unijeti lokaciju putovanja!</string>
+    <string name="title_activity_to_do_list">ToDoListActivity</string>
+    <string name="new_to_do">Dodaj novu aktivnost</string>
+    <string name="search_putovanje">Traži putovanje</string>
+    <string name="title_activity_lokacija">Mapa</string>
+
+    <string name="map_type_none">Ništa</string>
+    <string name="map_type_normal">Normalno</string>
+    <string name="map_type_terrain">Teren</string>
+    <string name="map_type_satellite">Satelit</string>
+    <string name="map_type_hybrid">Hibridno</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_gallery">GalleryActivity</string>
+    <string name="title_activity_glerija_photo">GlerijaPhotoActivity</string>
+
+    <string name="pop_tekst">U pretraživač ukucajte tačan naziv lokacije kako ne biste izazvali neočekivano ponašanje aplikacije.
+
+        Aplikacija se ne može koristiti u režimu bez interneta.
+    </string>
+
+    <string name="o_nama_tekst_1">Ukoliko već planirate svoj odmor, sigurno znate koliko detalja vas čeka oko pripreme prije odlaska na put.
+        Zbog toga vam preporučujemo aplikaciju koja će vam olakšati pakiranje i pomoći da vaše iskustvo ostane u ugodnom sjećanju bez komplikacija.</string>
+    <string name="o_nama_tekst_2"> Planer putovanja je mobilna aplikacija koja je namijenjena svima koji žele isplanirati rutu putovanja prije nego što krenu na put.
+        Bilo da sanjate o odlasku na plažu ili o udaljenom putovanju u egzotičnu zemlju, naša aplikacija će vam olakšati planiranje, boravak i pronalazak raznih sadržaja na nepoznatim mjestima.
+        Ova aplikacija vam omogućava da odaberete mjesto odlaska u određeni grad ili državu. Kada unesete vašu željenu destinaciju, na Google Karti će vam se prikazati lokacija iste.
+        Pored lokacije, možete unijeti i dodatne informacije kao što je vrijeme polaska, kontakti itd.</string>
+    <string name="o_nama_tekst_3">Kada stignete na odredište, posljednja stvar koju želite jeste da shvatite da ste zaboravili nešto važno.
+        Upravo zbog toga, naša aplikacija vam omogućava da unesete sve stvari i aktivnosti koje morate uraditi prije polaska na putovanje. Aplikacija također sadrži i galeriju pomoć koje možete zabilježiti najbolje trenutke sa vašeg putovanja.</string>
+    <string name="o_nama_tekst_4">Sada kada ste spremni, započnite vaše putovanje uz naš planer.</string>
+</resources>

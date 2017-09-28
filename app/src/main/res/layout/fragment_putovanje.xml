@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:orientation="vertical"
+              android:gravity="top|center"
+              android:background="@drawable/background_blur"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/putovanje_photo"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:background="@color/colorPrimary"
+                android:cropToPadding="true"
+                android:scaleType="centerInside"/>
+
+            <ImageButton
+                android:id="@+id/putovanje_camera"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@android:drawable/ic_menu_camera"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <TextView
+                style="?android:listSeparatorTextViewStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/putovanje_title_label"
+                android:textAlignment="center"
+                android:textSize="18sp"/>
+
+            <EditText
+                android:id="@+id/putovanje_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/colorPrimary"
+                android:hint="@string/putovanje_title_hint"
+                android:textSize="20sp"
+                android:textStyle="bold"/>
+
+            <CheckBox
+                android:id="@+id/putovanje_reserved"
+                android:layout_width="match_parent"
+                android:layout_height="59dp"
+                android:backgroundTint="@android:color/holo_orange_dark"
+                android:text="@string/putovanje_reserved_label"
+                app:buttonTint="@color/colorPrimary"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        style="?android:listSeparatorTextViewStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/putovanje_details_label"/>
+
+    <Button
+        android:id="@+id/putovanje_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/common_google_signin_btn_text_dark_pressed"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/putovanje_mjesta"
+        android:layout_width="330dp"
+        android:layout_height="68dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        android:hint="@string/putovanje_mjesta"
+        android:paddingBottom="15dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:paddingTop="15dp"
+        android:textColor="@color/common_google_signin_btn_text_light_focused"
+        android:textSize="16sp"
+        android:textStyle="italic"/>
+
+    <EditText
+        android:id="@+id/putovanje_napomena"
+        android:layout_width="330dp"
+        android:layout_height="103dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="15dp"
+        android:hint="@string/putovanje_napomena"
+        android:paddingBottom="15dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:paddingTop="15dp"
+        android:textColor="@color/common_google_signin_btn_text_light_focused"
+        android:textSize="16sp"
+        android:textStyle="italic"/>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center">
+        <Button
+            android:id="@+id/location"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/location_icon"/>
+        <Button
+            android:id="@+id/putovanje_prijatelj"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="25dp"
+            android:background="@drawable/call_friends_icon"/>
+        <Button
+            android:id="@+id/putovanje_report"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="25dp"
+            android:background="@drawable/contact_us_icon"/>
+
+    </LinearLayout>
+
+</LinearLayout>

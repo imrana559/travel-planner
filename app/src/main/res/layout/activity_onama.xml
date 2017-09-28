@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/ScrollView01"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@drawable/background"
+            tools:context="ba.unsa.pmf.planerputovanja.ONamaActivity">
+
+    <RelativeLayout
+        android:id="@+id/RelativeLayout01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/naslov_o_nama"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="#80FFFFFF"
+            android:gravity="center"
+            android:text="PLANER PUTOVANJA"
+            android:textColor="@android:color/holo_orange_dark"
+            android:textSize="24sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/o_nama_tekst_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/naslov_o_nama"
+            android:layout_marginTop="10dp"
+            android:background="#80FFFFFF"
+            android:lineSpacingExtra="3sp"
+            android:padding="7dp"
+            android:text="@string/o_nama_tekst_1"
+            android:textAlignment="center"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:id="@+id/o_nama_tekst_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/o_nama_tekst_1"
+            android:layout_marginTop="5dp"
+            android:background="#80FFFFFF"
+            android:lineSpacingExtra="3sp"
+            android:padding="7dp"
+            android:text="@string/o_nama_tekst_2"
+            android:textAlignment="center"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:id="@+id/o_nama_tekst_3"
+            android:layout_marginTop="5dp"
+            android:layout_below="@id/o_nama_tekst_2"
+            android:padding="7dp"
+            android:background="#80FFFFFF"
+            android:textSize="16sp"
+            android:lineSpacingExtra="3sp"
+            android:textAlignment="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/o_nama_tekst_3"/>
+
+        <TextView
+            android:id="@+id/o_nama_tekst_4"
+            android:layout_marginTop="5dp"
+            android:layout_below="@id/o_nama_tekst_3"
+            android:padding="7dp"
+            android:background="#80FFFFFF"
+            android:gravity="center"
+            android:textSize="16sp"
+            android:lineSpacingExtra="3sp"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/o_nama_tekst_4"/>
+
+        <Button
+            android:id="@+id/go_button"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_below="@id/o_nama_tekst_4"
+            android:layout_marginTop="7dp"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/go_icon"/>
+
+    </RelativeLayout>
+
+</ScrollView>

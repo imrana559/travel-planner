@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:background="#80FFFFFF"
+                android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/image_icon"
+        android:id="@+id/imgGalerija"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/txtIme"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Naziv lokacija"
+        android:textAlignment="center"
+        android:textColor="@color/common_google_signin_btn_text_light_pressed"
+        android:textSize="23sp"
+        android:textStyle="bold"
+        android:layout_below="@+id/imgGalerija"
+        android:layout_alignEnd="@+id/imgGalerija"
+        android:layout_alignStart="@+id/imgGalerija"/>
+
+    <TextView
+        android:id="@+id/txtOpis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Opis"
+        android:textAlignment="center"
+        android:textColor="@color/common_google_signin_btn_text_light_default"
+        android:textSize="17sp"
+        android:layout_below="@+id/txtIme"
+        android:layout_alignEnd="@+id/imgGalerija"
+        android:layout_alignStart="@+id/txtIme"/>
+</RelativeLayout>
